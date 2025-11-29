@@ -66,3 +66,5 @@ Troubleshooting
 License
 
 See source directories for per-component license details.
+
+Licensed under the MIT License — see `LICENSE`.
