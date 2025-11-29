@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_orderbook.dir/home/atul/projects/FusionMatchTrade/tests/services/matchengine/test_orderbook.cpp.o -o test_orderbook  libmatchengine.a /usr/local/lib/libgtest_main.a -lpthread /usr/local/lib/libgtest.a 

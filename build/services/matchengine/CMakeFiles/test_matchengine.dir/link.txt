@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_matchengine.dir/home/atul/projects/FusionMatchTrade/tests/services/matchengine/test_matchengine.cpp.o -o test_matchengine  libmatchengine.a -lpthread 

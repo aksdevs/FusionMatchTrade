@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_forex_proto.dir/home/atul/projects/FusionMatchTrade/tests/services/forex/test_forex_proto.cpp.o CMakeFiles/test_forex_proto.dir/forex.pb.cc.o -o test_forex_proto  /usr/lib/x86_64-linux-gnu/libprotobuf.so 

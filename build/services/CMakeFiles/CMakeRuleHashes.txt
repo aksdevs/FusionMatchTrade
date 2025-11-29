@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-561fd0dddb5d5f37103bb754856ca35e forex/forex.pb.h

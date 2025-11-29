@@ -1,2 +1,0 @@
-/usr/bin/ar qc libforex.a CMakeFiles/forex.dir/src/tests/test_forex_proto.cpp.o CMakeFiles/forex.dir/forex.pb.cc.o
-/usr/bin/ranlib libforex.a
