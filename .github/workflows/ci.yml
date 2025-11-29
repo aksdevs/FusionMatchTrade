@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake pkg-config python3 python3-pip git \
+            protobuf-compiler libprotobuf-dev libprotoc-dev libgrpc++-dev libcurl4-openssl-dev libssl-dev libgtest-dev
+          # Build and install googletest from system sources (libgtest-dev provides source tree)
+          sudo cmake -S /usr/src/googletest -B /usr/src/googletest/build
+          sudo cmake --build /usr/src/googletest/build -- -j$(nproc)
+          sudo cmake --install /usr/src/googletest/build
+
+      - name: Configure (CMake)
+        run: cmake -S src/services -B build/services -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build/services -- -j$(nproc)
+
+      - name: Run tests
+        run: |
+          cd build/services
+          ctest --output-on-failure --parallel 2

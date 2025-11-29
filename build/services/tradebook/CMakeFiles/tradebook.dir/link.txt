@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtradebook.a CMakeFiles/tradebook.dir/src/InMemoryTradeRepository.cpp.o CMakeFiles/tradebook.dir/src/NoOpEventPublisher.cpp.o CMakeFiles/tradebook.dir/src/Trade.cpp.o CMakeFiles/tradebook.dir/src/TradeService.cpp.o CMakeFiles/tradebook.dir/src/Utils.cpp.o CMakeFiles/tradebook.dir/src/tests/test_tradebook.cpp.o
+/usr/bin/ranlib libtradebook.a

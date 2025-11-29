@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmatchengine.a CMakeFiles/matchengine.dir/src/MatchingEngine.cpp.o CMakeFiles/matchengine.dir/src/Order.cpp.o CMakeFiles/matchengine.dir/src/OrderBook.cpp.o CMakeFiles/matchengine.dir/src/Trader.cpp.o CMakeFiles/matchengine.dir/src/tests/test_matchengine.cpp.o CMakeFiles/matchengine.dir/src/tests/test_orderbook.cpp.o
+/usr/bin/ranlib libmatchengine.a
