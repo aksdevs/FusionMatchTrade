@@ -1,5 +1,0 @@
-build/
-lib/
-forex_service
-*.pb.cc
-*.pb.h
