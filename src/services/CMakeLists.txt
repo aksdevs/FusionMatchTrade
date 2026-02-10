@@ -1,6 +1,6 @@
 # Root CMakeLists for canonical service layout
 cmake_minimum_required(VERSION 3.10)
-project(FusionMatchTrade_CanonicalServices)
+project(MatchEngineCore_CanonicalServices)
 
 enable_testing()
 

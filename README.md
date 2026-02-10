@@ -1,6 +1,6 @@
-# FusionMatchTrade
+# match-engine-core
 
-A unified C++ trading platform that combines order matching, trade booking, and forex services. The repository uses a canonical service layout under `src/services/` and places tests under `tests/services/`.
+A unified C++ matching engine microservice that combines order matching, trade booking, and forex services. The repository uses a canonical service layout under `src/services/` and places tests under `tests/services/`.
 
 **Canonical services**
 
